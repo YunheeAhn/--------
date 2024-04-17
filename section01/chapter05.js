@@ -40,9 +40,15 @@ let isEmpty = false;
 
 
 // 4. Null Type : 변수에 아무런 값도 갖지 않는다
-let empty = null; // 
+let empty = null;
+// null은 직접 변수에 null이라고 할당을 해주어야 함.
+// 프로그래머, 개발자들이 직접 명시적으로 할당을 해준다
 
 
 // 5. Undefined Type : undefined 값 하나만을 갖는 타입
 let none;
 console.log(none)
+// ** undefined 는 변수를 선언하고 값을 할당하지 않았을때 자동으로 들어간다.
+
+
+

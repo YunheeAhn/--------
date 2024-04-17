@@ -26,8 +26,13 @@ let $2name;
 
 // 3-3. 예약어를 사용 할 수 없다.
 // 예약어 : 자바스크립트가 이미 특수한 의미로 사용하기로 약속 한 것
-let let;
 
+// 4. 변수 명명 가이드
+let a = 1;
+let b = 2;
+let c = a - b;
+// 이렇게 누구든 알아보기 어려운 이름으로 변수 이름을 명명하는 것은 No.
 
-
-
+let salesCount = 1;
+let refundCount = 1;
+let totalSalesCount = salesCount - refundCount;
